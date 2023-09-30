@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Two Array</title>
+    <script>
+        let array1 = [1, 5, 23, 43, 54];
+        console.log(`First array is ${array1}`);
+        let array2 = [4, 2, 12, 89];
+        console.log(`Second array is ${array2}`);
+        let array=[];
+        for(let i=0; i<array1.length; i++){
+            array[i]=array1[i];
+        }
+        for(i=0; i<array2.length; i++){
+            array[array1.length+i]=array2[i];
+        }
+        console.warn(`The new array is ${array}`);
+
+        // let array3 = [...array1,...array2];
+        // console.warn(`The new array is ${array3}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
